@@ -42,6 +42,7 @@ const Form: FC<FormProps> = () => {
                     className="input w-full max-w-xs mt-4"
                     value={password}
                     onChange={handleInputChange}
+                    required
                 />
                 <button type="submit" className="btn mt-4">Reverse Password</button>
             </form>
