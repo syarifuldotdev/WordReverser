@@ -1,6 +1,6 @@
+import { Inter } from 'next/font/google'
 import Link from 'next/link'
 import './globals.css'
-import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,22 +24,16 @@ export default function RootLayout({
   )
 }
 
-
-export function SyaLogo() {
-  return (
-    <svg className="w-10 h-10" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" overflow="visible" xmlSpace="preserve">
-      <path className="fill-base-content" d="m305.8 389.08 27.92-158.34h-64.74l-27.92 158.34M222.47 200l16.05-91h-64.74l-16.08 91.2" />
-    </svg>
-  )
-}
-
 export function Navbar() {
   return (
     <div className="navbar bg-base-300 bg-opacity-20 backdrop-blur-lg z-40 drop-shadow-xl fixed top-0 left-0 right-0">
       <div className="navbar-start"></div>
       <div className="navbar-center">
         <Link href="/" className="btn btn-ghost text-lg normal-case" passHref>
-          <SyaLogo />PasswordReverser
+          <svg className="w-10 h-10" version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" overflow="visible" xmlSpace="preserve">
+            <path className="fill-base-content" d="m305.8 389.08 27.92-158.34h-64.74l-27.92 158.34M222.47 200l16.05-91h-64.74l-16.08 91.2" />
+          </svg>
+          PasswordReverser
         </Link>
       </div>
 
