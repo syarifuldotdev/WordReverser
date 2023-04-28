@@ -1,7 +1,6 @@
 import Form from "@/components/Form";
 
 export default function Home() {
-
   return (
     <div>
       <div className="hero min-h-screen bg-base-200">

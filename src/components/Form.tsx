@@ -27,8 +27,6 @@ const Form: FC<FormProps> = () => {
         setTimeout(() => {
             setShowToast(false);
         }, 3000)
-
-
     };
 
     const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
