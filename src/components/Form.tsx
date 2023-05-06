@@ -44,7 +44,7 @@ const Form: FC<FormProps> = () => {
                     onChange={handleInputChange}
                     required
                 />
-                <button type="submit" className="btn mt-4 hover:btn-ghost outline outline-1">Reverse Password</button>
+                <button type="submit" className="btn mt-4 hover:btn-ghost outline outline-1">Reverse Word</button>
             </form>
             {showToast && (
                 <div className="toast z-50">
