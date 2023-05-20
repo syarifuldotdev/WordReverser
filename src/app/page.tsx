@@ -7,7 +7,7 @@ export default function Home() {
         <div className="hero-content text-center">
           <div>
             <div className="max-w-md">
-              <h1 className="md:text-5xl text-4xl font-bold">Password Reverser</h1>
+              <h1 className="md:text-5xl text-4xl font-bold">Word Reverser</h1>
               <Form />
             </div>
           </div>
